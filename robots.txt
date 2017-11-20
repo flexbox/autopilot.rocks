@@ -1,0 +1,4 @@
+User-Agent: *
+Allow: /
+
+Sitemap: https://autopilot.rocks/sitemap.xml
