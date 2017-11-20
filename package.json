@@ -5,7 +5,9 @@
   "repository": "git@github.com:flexbox/codeless",
   "author": "flexbox <dleuliette@gmail.com>",
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "foundation-sites": "^6.4.4-rc1"
+  },
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.1",

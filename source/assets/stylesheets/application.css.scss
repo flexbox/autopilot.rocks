@@ -1,9 +1,8 @@
 @charset 'utf-8';
 
-// Import Sass files
-// @import 'folder/file';
+// @import 'colors';
+// @import 'settings-custom';
+@import 'foundation-sites/scss/foundation';
 
-body {
-  background-color: #F1F1F1;
-  text-align: center;
-}
+$global-width: rem-calc(1020);
+@include foundation-everything(true);

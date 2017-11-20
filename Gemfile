@@ -16,6 +16,7 @@ gem 'middleman-sitemap-ping'
 gem 'middleman-deploy', git: 'https://github.com/middleman-contrib/middleman-deploy', branch: 'master'
 # gem 'middleman-sitemap',        '~> 0.0.13' # FIXME: wait for this PR to be merged https://github.com/statonjr/middleman-sitemap/pull/10
 gem 'middleman-sitemap', git: 'https://github.com/matsu911/middleman-sitemap', branch: 'master'
+gem 'middleman-sprockets'
 
 # Templating Engines
 gem 'slim',                    '~> 3.0.7'
