@@ -1,7 +1,7 @@
 site:
   title: autopilot.rocks
   title_separator: •
-  description: 'Land a new job'
+  description: 'Land a better job'
   i18n: en
   geo:
     placename: 'London, UK'

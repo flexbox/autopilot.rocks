@@ -13,6 +13,7 @@ html prefix="og: http://ogp.me/ns#" lang="#{data.settings.site.i18n}"
   body class="#{page_classes}"
 
     == yield
+    = partial 'layouts/commons/footer'
 
     = javascript_include_tag 'application'
     = yield_content :javascripts
