@@ -1,9 +1,23 @@
+// 1. Global
+// ---------
+
 $flex: true;
 $xy-grid: false;
+
 $global-width: 1020px;
+$global-radius: 6px;
 
 $body-font-family: 'Muli', sans-serif;
 $body-font-weight: 400;
 
 $header-font-family: 'Merriweather', serif;
 $header-font-weight: 700;
+
+
+// 4. Base Typography
+// ------------------
+
+$anchor-color: $primary-color;
+$anchor-color-hover: scale-color($anchor-color, $lightness: 20%);
+$anchor-text-decoration: underline;
+$anchor-text-decoration-hover: none;

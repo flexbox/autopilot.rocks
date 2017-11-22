@@ -18,3 +18,5 @@ $foundation-palette: (
 );
 
 $body-background: $light-gray;
+
+@include add-foundation-colors;
