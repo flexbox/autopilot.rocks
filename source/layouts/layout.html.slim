@@ -8,6 +8,7 @@ html prefix="og: http://ogp.me/ns#" lang="#{data.settings.site.i18n}"
     = partial 'layouts/commons/meta_tags'
     = partial 'layouts/commons/favicon'
     = stylesheet_link_tag 'application'
+    = stylesheet_link_tag 'https://fonts.googleapis.com/css?family=Merriweather:700|Muli:400'
     = yield_content :head
 
   body class="#{page_classes}"
