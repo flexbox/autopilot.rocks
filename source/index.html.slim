@@ -4,6 +4,15 @@ description: ''
 twitter_card_img: ''
 ---
 
-.text-center
-  h1 = data.settings.site.title
-  em = data.settings.site.description
+.row
+  .small-12.columns
+    h1 It’s easy to be smart with your job hunt
+
+    button Watch the video
+
+    h2 From 0 to 1000+ contacts on LinkedIn in 1 week. For free.
+
+    = partial 'layouts/mailchimp'
+
+    = link_to 'https://my.mindnode.com/Ewz6tYJxbR5vJ6qw6Q9MUCqQLEx6cTizqHCyQSth' do
+      '🔍  See the complete mindnode
