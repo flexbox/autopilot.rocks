@@ -12,8 +12,8 @@ html prefix="og: http://ogp.me/ns#" lang="#{data.settings.site.i18n}"
     = yield_content :head
 
   body class="#{page_classes}"
-
-    section.hero.is-fullheight
+    = partial 'layouts/commons/navbar'
+    main.hero.is-fullheight role="main"
       == yield
       = partial 'layouts/commons/footer'
 
