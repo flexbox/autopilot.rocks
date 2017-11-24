@@ -8,7 +8,8 @@ site:
     position: 51.507351;-0.127758
     region: EN
   url: 'https://autopilot.rocks'
-  twitter_card_img: 'https://raw.githubusercontent.com/flexbox/autopilot.rocks/master/source/favicon_base.png'
+  domain: 'autopilot.rocks'
+  twitter_card_img: 'https://raw.githubusercontent.com/flexbox/autopilot.rocks/master/source/assets/images/logos/favicon_base.png'
   author: David Leuliette
 
 social:
