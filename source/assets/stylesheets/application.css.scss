@@ -1,10 +1,29 @@
 @charset 'utf-8';
 
+// 1. Import the initial variables
+@import 'bulma/sass/utilities/initial-variables';
+@import 'bulma/sass/utilities/functions';
+
+// 2. Set your own initial variables
+// 3. Set the derived variables
+@import 'colors';
+
+// 5. Add new color variables to the color map.
+// @import "bulma/sass/utilities/derived-variables.sass";
+// $addColors: (
+//   "twitter":($twitter, $twitter-invert),
+//   "linkedin": ($linkedin, $linkedin-invert),
+//   "github": ($github, $github-invert)
+// );
+// $colors: map-merge($colors, $addColors);
+
+// 4. Setup your Custom Colors
+$linkedin: #0077b5;
+$linkedin-invert: findColorInvert($linkedin);
+$twitter: #55acee;
+$twitter-invert: findColorInvert($twitter);
+
+// 6. Import the rest of Bulma
 @import 'bulma/bulma';
 
-.hero-body {
-  background-image: image-url('hero-background.png');
-  background-position: center bottom;
-  background-repeat: no-repeat;
-  background-size: 3400px 900px;
-}
+@import 'molecules/hero';
