@@ -2,5 +2,11 @@ footer.footer role="contentinfo"
   .container
     .content.has-text-centered
       small
-        markdown:
-          __Autopilot.rocks__ by [David Leuliette](https://davidl.fr)
+        span.has-text-grey-light> ©
+        time.has-text-grey-light> datetime="#{DateTime.now.strftime('%Y')}"
+          = DateTime.now.strftime('%Y')
+        span.has-text-grey-light> •
+        strong> Autopilot.rocks
+        span.has-text-grey-light> by
+        = link_to 'David Leuliette', 'https://twitter.com/intent/follow?screen_name=_flexbox', target: '_blank'
+

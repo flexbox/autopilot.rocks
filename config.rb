@@ -5,7 +5,6 @@ require 'slim'
 Slim::Engine.default_options[:pretty] = true # Avoid HTML minification for Karl
 
 activate :autoprefixer, browsers: ['last 2 versions', 'ie 8', 'ie 9']
-activate :livereload
 activate :directory_indexes
 
 set :css_dir,    'assets/stylesheets'

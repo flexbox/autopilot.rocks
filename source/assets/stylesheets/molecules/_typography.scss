@@ -1,0 +1,10 @@
+.link-zoom {
+  &:hover,
+  &:focus {
+    transform: scale(1.2);
+  }
+}
+
+.navbar-item {
+  font-weight: $weight-bold;
+}
