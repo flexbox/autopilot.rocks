@@ -3,19 +3,37 @@ title: From 0 to 1000+ contacts on LinkedIn in 1 week. For free.
 description: 'Growth your presence on jobboard and double your paycheck in less than 90 days'
 ---
 
-.hero-body
-  .container
-    .columns
-      .column
-        h1.title It’s easy to be smart with your job hunt
-        h2.subtitle.has-text-grey-light From 0 to 1000+ contacts on LinkedIn in 1 week. For free.
+.hero.is-fullheight
+  .hero-body.is-homepage
+    .container
+      .columns
+        .column
+          h1.title It’s easy to be smart with your job hunt
+          h2.subtitle.has-text-grey-light From 0 to 1000+ contacts on LinkedIn in 1 week. For free.
 
-        / = link_to 'Watch the video', '#'
-        br
-        br
-        = partial 'layouts/mailchimp'
+          / = link_to 'Watch the video', '#'
+          br
+          br
+          = partial 'layouts/mailchimp'
 
-        br
-        = link_to 'https://my.mindnode.com/Ewz6tYJxbR5vJ6qw6Q9MUCqQLEx6cTizqHCyQSth#421.8,-132.1,0', target: '_blank' do
-          '🔍
-          '&nbsp;See the complete Mind Mapping
+          br
+          = link_to 'https://my.mindnode.com/Ewz6tYJxbR5vJ6qw6Q9MUCqQLEx6cTizqHCyQSth#421.8,-132.1,0', target: '_blank' do
+            '🔍
+            '&nbsp;See the complete Mind Mapping
+
+.hero.is-medium.is-primary.is-bold
+  .hero-body
+    .container
+      .level
+        .level-item
+          = image_tag gravatar_for('dleuliette@gmail.com'), class: 'hero-picture'
+        .level-item.content
+          div
+            h2.has-text-white How to hack your career 10X faster
+            markdown:
+              A little under a year ago, I arrived in London with zero network. I started from scratch. 
+              Now, I have __dozens of job offers every week__.
+
+              On top of that, I built a __system for curation and automation__.
+
+              _David Leuliette - Senior front-end engineer_
