@@ -12,9 +12,9 @@ html prefix="og: http://ogp.me/ns#" lang="#{data.settings.site.i18n}"
 
   body class="#{page_classes}"
     = partial 'layouts/commons/navbar'
-    main.hero.is-fullheight role="main"
+    main role="main"
       == yield
-      = partial 'layouts/commons/footer'
+    = partial 'layouts/commons/footer'
 
     = javascript_include_tag 'application'
     = yield_content :javascripts

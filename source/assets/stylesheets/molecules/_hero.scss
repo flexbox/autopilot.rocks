@@ -1,6 +1,16 @@
 .hero-body {
-  background-image: image-url('hero-background.png');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 3400px 900px;
+ &.is-homepage  {
+    background-image: image-url('hero-background.png');
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: 3400px 900px;
+  }
+}
+
+.hero-picture {
+  border-radius: 100%;
+  max-width: 150px;
+  box-shadow: 0 2px 3px 0 rgba(0, 0 ,0, 0.075);
+  border: 2px solid rgba(255, 255, 255, 0.4);
+  background-color: $light;
 }

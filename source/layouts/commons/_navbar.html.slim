@@ -1,7 +1,7 @@
 nav.navbar role="navigation" aria-label="main navigation"
   .container
     .navbar-brand
-      = link_to 'autopilot.rocks', '/', class: 'navbar-item'
+      = link_to data.settings.site.title, '/', class: 'navbar-item'
       button.button.navbar-burger data-target="navbar-menu"
         span
         span
@@ -9,8 +9,8 @@ nav.navbar role="navigation" aria-label="main navigation"
 
     #navbar-menu.navbar-menu
       .navbar-end
-        = link_to '#', class: 'navbar-item' do
-          'Hunt!
+        / = link_to '#', class: 'navbar-item' do
+        /   'Hunt!
         = link_to "https://twitter.com/intent/tweet?text=https://autopilot.rocks My mission is to avoiding you to loose your time in a bullshit job&hashtags=autopilot,jobs,automation", target: '_blank', class: 'navbar-item' do
           'Tweet
         = link_to 'https://www.facebook.com/sharer/sharer.php?u=https://autopilot.rocks', target: '_blank', class: 'navbar-item' do
